@@ -5,10 +5,10 @@ body{
 h1{
     font-size: 50px;
 }
-#name_from_title{
+.orange-color{
     color: aquamarine;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom:200px ;
 }
@@ -46,3 +46,23 @@ section{
     padding:0px 0px 0px 100px ;
 }
 
+.experience-item{
+
+   width: 40%;
+   padding-left: 5%;
+   padding-right: 5%;
+   margin-left: 5px;
+   margin-right: 5px;
+   border-radius: 40px;
+   box-shadow:10px 10px 40px  rgb(101, 141, 41);
+}
+#senior-programmer{
+    border-left: 7px solid blue;
+}
+#junior-programmer{
+    border-left: 7px solid tomato;
+}
+
+footer h3{
+    text-align: center;
+}
